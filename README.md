@@ -19,4 +19,4 @@ Aktywowanie poszczególnych segmentów wyświetlacza odbywa się poprzez podanie
 Aktywowanie poszczególnych segmentów pojedynczego wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyprowadzeniach A-G.
 
 
-<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="15%"></img> 
+<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img> 
