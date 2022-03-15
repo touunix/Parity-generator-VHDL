@@ -1,1 +1,1 @@
-# Parity-generator-VHDL
+# ENG Parity generator VHDL
