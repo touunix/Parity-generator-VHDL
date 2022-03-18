@@ -11,6 +11,12 @@ Activating individual segments of a single display is done by giving a low state
 Simulation results:
 <img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img>
 
+Files description:
+- top.vhd - main VHDL design file with the operation algorithm
+- tb.vhd - testbench file
+- iup1.xdc - file with constraints for the **Nexys-A7 board (FPGA xc7a100tcsg324-1)**
+
+
 # PL Generator parzystości VHDL
 Układ po zaprogramowaniu, służy jako generator parzystości. Na podstawie wprowadzonego słowa 8-bitowego, wyświetla informacje na siedmiosegmentowym wyświetlaczu znajdującego się na płytce FPGA, o parzystej lub nieparzystej liczbie „jedynek” w słowie wejściowym.
 W sytuacji gdy wprowadzone słowo zawiera parzystą liczbę „jedynek”, układ sygnalizuje to na wyświetlaczu siedmiosegmentowym za pomocą wyświetlanej litery „E”.
@@ -18,8 +24,13 @@ W sytuacji gdy wprowadzone słowo zawiera nieparzystą liczbę „jedynek”, uk
 
 W przeprowadzonej symulacji układu przełączniki są zainicjalizowane na OFF, a następnie co 100 ms przełączane na ON do momentu gdy wszystkie przełączniki są ON.
 
-Aktywowanie poszczególnych segmentów wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyprowadzenie AN0 - AN3.
-Aktywowanie poszczególnych segmentów pojedynczego wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyprowadzeniach A-G.
+Aktywowanie poszczególnych segmentów wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyjściach AN0 - AN3.
+Aktywowanie poszczególnych segmentów pojedynczego wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyjściach A-G.
 
 Wyniki symulacji:
-<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img>
+
+Opis plików:
+- top.vhd - główny plik projektu VHDL z algorytmem działania
+- tb.vhd - plik testbench
+- iup1.xdc - plik z ograniczeniami projektowymi dla **płytki Nexys-A7 (układ FPGA xc7a100tcsg324-1)**
