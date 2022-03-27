@@ -10,10 +10,10 @@ The activation of individual segments of the display is done by giving a low sta
 Activating individual segments of a single display is done by giving a low state "0" on the A-G outputs.
 
 ###### Simulation results
-<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="100%"></img>
 
 ###### Verification results
-<img src="https://user-images.githubusercontent.com/79804729/159366491-e89a4c4c-3fbb-41a2-8f9b-f4022e13dd27.gif" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/79804729/159366491-e89a4c4c-3fbb-41a2-8f9b-f4022e13dd27.gif" width="100%"></img>
 
 ###### Files description
 - top.vhd - main VHDL design file with the operation algorithm
@@ -33,10 +33,10 @@ Aktywowanie poszczególnych segmentów wyświetlacza odbywa się poprzez podanie
 Aktywowanie poszczególnych segmentów pojedynczego wyświetlacza odbywa się poprzez podanie stanu niskiego „0” na wyjściach A-G.
 
 ###### Wyniki symulacji
-<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/79804729/158474784-55bc23ea-211a-431b-a8d9-0ef59d0b232f.png" width="100%"></img>
 
 ###### Wyniki weryfikacji
-<img src="https://user-images.githubusercontent.com/79804729/159366491-e89a4c4c-3fbb-41a2-8f9b-f4022e13dd27.gif" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/79804729/159366491-e89a4c4c-3fbb-41a2-8f9b-f4022e13dd27.gif" width="100%"></img>
 
 ###### Opis plików
 - top.vhd - główny plik projektu VHDL z algorytmem działania
